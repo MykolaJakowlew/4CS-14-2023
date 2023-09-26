@@ -1,0 +1,31 @@
+.first {
+ width:600px;
+ height: 600px;
+ background-color: yellow;
+}
+
+.first .second {
+ background-color: blueviolet;
+}
+
+.first .second .thrid {
+ border-radius: unset;
+}
+
+.thrid {
+ width: 50px;
+ height: 50px;
+ background-color: chartreuse;
+ border-radius: 50%;
+}
+
+.second {
+ width:200px;
+ height: 200px;
+ background-color: aqua;
+}
+
+.second .thrid {
+ width: 150px;
+ height: 150px;
+}

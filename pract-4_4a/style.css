@@ -1,0 +1,43 @@
+.first {
+ width:600px;
+ height: 600px;
+ background-color: yellow;
+
+ .second {
+  background-color: blueviolet;
+
+  .thrid {
+   border-radius: unset;
+   &:hover{
+    background-color: darkslateblue;
+   }
+  }
+
+  &:hover{
+   background-color: darkblue;
+  }
+ }
+
+ >.thrid {
+  background-color: brown;
+ }
+
+}
+
+.second {
+ width:200px;
+ height: 200px;
+ background-color: aqua;
+
+ .thrid {
+  width: 150px;
+  height: 150px;
+ }
+}
+
+.thrid {
+ width: 50px;
+ height: 50px;
+ background-color: chartreuse;
+ border-radius: 50%;
+}
