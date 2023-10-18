@@ -99,21 +99,21 @@ body {
   }
 }
 
-.item {
+/* .item {
  transition: 1s;
  background-color: whitesmoke;
 }
 .image {
  opacity: 0.25;
  transition: 1s;
-}
-.item:hover {
+} */
+/* .item:hover {
  transform: scale(1.5);
-}
+} */
 
-.item:hover .image {
+/* .item:hover .image {
  opacity: 1;
-}
+} */
 
 .item {
  /* animation-name: appears;
@@ -121,7 +121,7 @@ body {
  animation-iteration-count: 3; */
 }
 
-@keyframes appears {
+/* @keyframes appears {
  0% {
   opacity: 0;
  }
@@ -129,13 +129,13 @@ body {
  100% {
   opacity: 1;
  }
-}
+} */
 
-.item:first-child {
+/* .item:first-child {
  animation-name: heartbeat;
  animation-duration: 1s;
  animation-iteration-count: infinite;
-}
+} */
 
 @keyframes heartbeat {
  0% {
@@ -188,7 +188,7 @@ body {
 .text > span > span:nth-child(7) {
  animation-delay: .6s;
 } */
-@keyframes letter_appears {
+/* @keyframes letter_appears {
  0%{
   filter: blur(0)
  }
@@ -200,4 +200,4 @@ body {
  100%{
   filter: blur(0)
  }
-}
+} */
